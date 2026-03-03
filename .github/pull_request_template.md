@@ -56,7 +56,7 @@ Screenshot or output of harbor tasks check passing
 Screenshot showing oracle passing all tests
 
 ### Agent Runs
-Screenshots of agent runs with and without skills
+Screenshots of agent runs with and without skills. Also note here the `final_metrics` in `jobs/date/task-name__xxxxxx/agent/trajectory.json` for each run.
 
 ## Notes
 Any additional context or explanations for checkbox items that don't fully apply
