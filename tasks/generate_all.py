@@ -327,7 +327,7 @@ def _run_mc_schemes(schemes_dict, mu_hat, cov_hat, initial_capital,
             dd = (running_max - wealth) / running_max
             max_drawdowns[name][p] = np.max(dd)
 
-    median_idx = n_paths // 2
+    median_idx = (n_paths - 1) // 2
     results = {}
     for name in schemes_dict:
         sorted_tw = np.sort(terminal_wealth[name])
