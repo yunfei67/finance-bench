@@ -290,9 +290,6 @@ def check_intermediates(
                         error_class = "mislabeling"
                     else:
                         error_class = "convention"
-                        error_class = "mislabeling"
-                    else:
-                        error_class = "convention"
                 else:
                     error_class = "computation"
 
